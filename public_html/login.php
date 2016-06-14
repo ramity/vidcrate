@@ -1,8 +1,13 @@
 <?php
-require_once("C:/wamp/modules/start.php");
-require_once("C:/wamp/modules/posthandle.php");
+require_once("../modules/start.php");
+require_once("../modules/posthandle.php");
 $check	= new Check();
 $user	= new User();
+
+/*
+
+DISABLED LOGIN (UTILIZES BAD PRACTICES + INSECURE)
+
 if($check->postValue($_POST['l_sub']))
 {
 	if($check->postValue($_POST['l_use']))
@@ -14,22 +19,23 @@ if($check->postValue($_POST['l_sub']))
 		}
 	}
 }
+*/
 ?>
 <!DOCTYPE>
 <html>
 	<head>
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="http://71.57.197.127/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="http://71.57.197.127/css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
-	<body>	
+	<body>
 		<?php
 		echo "<!--begin topbar-->";
-		require_once("C:/wamp/blocks/topbar.php");
+		require_once("../blocks/topbar.php");
 		echo "<!--end topbar + start sidebar-->";
-		require_once("C:/wamp/blocks/sidebar.php");
+		require_once("../blocks/sidebar.php");
 		echo "<!--end sidebar + start login container-->";
-		require_once("C:/wamp/blocks/login.php");
+		require_once("../blocks/login.php");
 		echo "<!--end login container-->\n";
 		?>
 	</body>

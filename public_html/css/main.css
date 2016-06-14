@@ -53,7 +53,7 @@ width:40px;
 height:40px;
 float:left;
 margin-right:10px;
-background-image:url('http://71.57.197.127/css/img/sprites.png');
+background-image:url('img/sprites.png');
 background-size:80px 40px;
 background-position:0px 0px;
 cursor:pointer;
@@ -149,11 +149,11 @@ width:5px;
 }
 div#sidebar::-webkit-scrollbar-thumb
 {
-background:rgb(29,122,57); 
+background:rgb(29,122,57);
 }
 div#sidebar::-webkit-scrollbar-thumb:window-inactive
 {
-background:rgb(34,177,76); 
+background:rgb(34,177,76);
 }
 div.sidebarholder,div#sidebarholderwm
 {
@@ -255,7 +255,7 @@ div#signboxwelcome
 width:320px;
 height:100px;
 float:left;
-background-image:url('http://71.57.197.127/css/img/logo.png');
+background-image:url('img/logo.png');
 background-size:100% 100%;
 border-bottom:5px solid #fff;
 }

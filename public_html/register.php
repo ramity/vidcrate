@@ -1,5 +1,6 @@
 <?php
 require_once("../modules/start.php");
+require_once("../modules/posthandle.php");
 ?>
 <!DOCTYPE>
 <html>
@@ -14,8 +15,9 @@ require_once("../modules/start.php");
 		require_once("../blocks/topbar.php");
 		echo "<!--end topbar + start sidebar-->";
 		require_once("../blocks/sidebar.php");
-		echo "<!--end sidebar + start container-->";
-		echo "<!--end container-->\n";
+		echo "<!--end sidebar + start register container-->";
+		require_once("../blocks/register.php");
+		echo "<!--end register container-->\n";
 		?>
 	</body>
 </html>

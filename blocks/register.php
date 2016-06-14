@@ -1,10 +1,10 @@
-		
+
 		<div id="container">
-			<div id="signbox" style="background-image:url('http://71.57.197.127/css/img/<?php echo rand(1,4);?>.gif');">
+			<div id="signbox" style="background-image:url('css/img/<?php echo rand(1,4);?>.gif');">
 				<div id="signboxformatlarge">
 					<div id="signboxwelcome"></div>
 					<div id="signboxbottomlarge">
-						<form action="http://71.57.197.127/register" method="post">
+						<form action="register.php" method="post">
 							<div class="signboxbottomdiv">
 								<input class="signbox" placeholder="username" type="text">
 							</div>
@@ -22,4 +22,3 @@
 				</div>
 			</div>
 		</div>
-		

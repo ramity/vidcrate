@@ -1,7 +1,7 @@
-		
+
 		<div id="topbar">
 			<div id="topbarinr">
-				<a id="topbarlink" href="http://71.57.197.127/">
+				<a id="topbarlink" href="">
 					<div id="topbarinrlogo">vidcrate</div>
 				</a>
 				<div id="topbarinrright">
@@ -11,22 +11,21 @@
 					if($securelogin)
 					{
 					?>
-					
+
 					<?php
 					}else{
 					echo'
-					<a id="topbarlink" href="http://71.57.197.127/register">
+					<a id="topbarlink" href="register.php">
 						<div id="topbarinrrightregister">register</div>
 					</a>
-					<a id="topbarlink" href="http://71.57.197.127/login">
+					<a id="topbarlink" href="login.php">
 						<div id="topbarinrrightlogin">login</div>
 					</a>
 					';
 					}
 					echo "<!--end check build-->";
 					?>
-					
+
 				</div>
 			</div>
 		</div>
-		
